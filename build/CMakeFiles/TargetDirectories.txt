@@ -1,0 +1,3 @@
+C:/Users/ganes/OneDrive/Documents/coding/.vscode/projects/my game/build/CMakeFiles/MyGame.dir
+C:/Users/ganes/OneDrive/Documents/coding/.vscode/projects/my game/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ganes/OneDrive/Documents/coding/.vscode/projects/my game/build/CMakeFiles/ZERO_CHECK.dir

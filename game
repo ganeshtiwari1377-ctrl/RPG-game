@@ -1,0 +1,19 @@
+#include <SFML/Config.hpp>
+#include <SFML/Graphics.hpp>
+#include <iostream>
+
+int main() {
+    std::cout << "SFML version: "
+              << SFML_VERSION_MAJOR << "."
+              << SFML_VERSION_MINOR << "."
+              << SFML_VERSION_PATCH << "\n";
+
+    sf::VideoMode desktop = sf::VideoMode::getDesktopMode();
+    std::cout << "Desktop resolution: "
+              << desktop.size.x << " x " << desktop.size.y << "\n";
+
+    std::cout << "SFML is working!\n";
+    std::cout << "Press Enter to exit...";
+    std::cin.get();
+    return 0;
+}

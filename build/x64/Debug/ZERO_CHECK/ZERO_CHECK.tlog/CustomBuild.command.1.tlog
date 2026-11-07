@@ -1,0 +1,10 @@
+^C:\USERS\GANES\ONEDRIVE\DOCUMENTS\CODING\.VSCODE\PROJECTS\MY GAME\BUILD\CMAKEFILES\77AAB606B2C64BD0BEC11BE19B44E7AC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/ganes/OneDrive/Documents/coding/.vscode/projects/my game" "-BC:/Users/ganes/OneDrive/Documents/coding/.vscode/projects/my game/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/ganes/OneDrive/Documents/coding/.vscode/projects/my game/build/MyGame.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
