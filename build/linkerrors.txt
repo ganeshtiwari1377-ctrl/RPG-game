@@ -1,8 +1,0 @@
-================================================================================
-Linker Errors
-Generated: 2026-11-09T17:50:42.400Z
-Total Errors: 1
-================================================================================
-
-[LNK1168] (MSVC)
-cannot open C:\Users\ganes\OneDrive\Documents\coding\.vscode\projects\my game\build\Debug\MyGame.exe for writing [C:\Users\ganes\OneDrive\Documents\coding\.vscode\projects\my game\build\MyGame.vcxproj]
